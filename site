@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<head>
+<title>Neuville en Ferrain hors Tafta</title>
+  <style>
+  
+    body {  
+  background: #F2F2F2;
+  color: black;
+  font-family: helvetica  
+    }
+    img {
+        float: left;
+        display: block;
+	      height: 100px;
+    }
+    h1 {
+      text-align: justify;
+      border-bottom:2px solid ;
+    }
+    #Facebook {  
+    height: 45px;
+    width: 160px;
+    border-color: #6495ED;
+    border-style: dashed;
+    border-width: 2px;
+    background-color: #BCD2EE;
+    border-radius: 5px;
+    float: right;
+    text-align: justify;
+    }
+    table {
+      border-color: black;
+      border-style: dashed;
+      margin: auto;
+    }  
+    a:link { 
+	text-decoration: none; 
+	color: #500303;
+	}
+    a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #41045E;
+	}
+    a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+    p {
+      text-align: justify;
+    }
+    form {
+  margin: 0 ;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+    div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+    input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+    input:focus, textarea:focus {
+  border-color: #000;
+}
+    textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+    .button {
+  padding-left: 90px;
+}
+    button {
+  margin-left: 1em;
+}
+
+@media (max-width: 500px) {
+  h1 {
+      font-size: 25px;
+      margin-top: 10px;
+      line-height: 30px;
+      text-align: auto;
+  }
+ div {
+      margin: 20px 12px 0 12px;
+  }
+  #facebook {
+    height: 30px;
+    width: 100px;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+  p {
+      font-size: 13px;
+      line-height: 24px;
+  }
+  img {
+width: 100%;
+height: auto;
+}
+  form {
+     width: 250px;
+     font-size: 14px;
+  }
+  input, textarea {
+  width: 190px;
+  }
+  button {
+    margin: auto;
+    width: 80px;
+    font-size: 11.5px;
+  }
+  }
+  
+
+  </style>
+</head>
+
+<body>
+<div id=titre>
+<img src="https://france.attac.org/local/cache-vignettes/L1000xH636/arton3261-4a421-82bbc.jpg"/>
+<h1>Neuville en Ferrain hors-TAFTA</h1>
+</div>
+
+</br>
+<div id= Facebook>
+	<a href="https://www.facebook.com/pages/Neuville-en-Ferrain-hors-TAFTA/242063879325558?fref=ts">Suivre notre page Facebook </a>
+</div>
+</br>
+</br>
+</br>
+</br>
+<p>Notre collectif regroupe des individu-e-s et les organisations qui souhaitent rejoindre cette lutte.</p>
+<p>Nous refusons les traités de libre-échange transatlantiques et demandons à la ville de Neuville en Ferrain de se déclarer hors-TAFTA</p>
+<p>Nous avons déjà organisé une réunion publique en présence de représentant-e-s des l'<a href="http://www.solidaires.org/">Union syndicale Solidaires</a>, de l'association <a href= "https://france.attac.org/">ATTAC</a> et d'une <a href="http://www.karimadelli.com/deputee-europeenne_accueil.htm">députée européenne d'Europe Ecologie - Les Verts</a>.</p>
+</br>
+<table>
+  <tbody>
+    <td id>
+ <a href="https://www.collectifstoptafta.org/">
+ <img src="https://www.collectifstoptafta.org/local/adapt-img/640/10x/IMG/siteon0.png?1422021228"/>
+    </td>
+    </a>
+ </tbody>
+</table>
+</br>
+
+<form method=post enctype="text/plain" action="mailto:nef.hors.tafta@gmail.com"  method="post" name="contact">
+      <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" />
+    </div>
+    <div>
+        <label for="courriel">@dresse :</label>
+        <input type="email" id="courriel" />
+    </div>
+    <div>
+        <label for="message">Message :</label>
+        <textarea id="message"></textarea>
+    </div>
+    
+    <div class="button">
+        <button type="submit">Envoyer votre message</button>
+        <button type="reset">Effacer</button>
+    </div>
+</form>
+</body>
